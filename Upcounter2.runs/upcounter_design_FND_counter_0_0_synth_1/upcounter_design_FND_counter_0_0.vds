@@ -1,0 +1,231 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Oct 17 11:38:55 2022
+# Process ID: 25232
+# Current directory: D:/xilinx_2020/Upcounter2/Upcounter2.runs/upcounter_design_FND_counter_0_0_synth_1
+# Command line: vivado.exe -log upcounter_design_FND_counter_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source upcounter_design_FND_counter_0_0.tcl
+# Log file: D:/xilinx_2020/Upcounter2/Upcounter2.runs/upcounter_design_FND_counter_0_0_synth_1/upcounter_design_FND_counter_0_0.vds
+# Journal file: D:/xilinx_2020/Upcounter2/Upcounter2.runs/upcounter_design_FND_counter_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source upcounter_design_FND_counter_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 1058.988 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/xilinx_2020/IP_Repository'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx2020/Vivado/2020.1/data/ip'.
+Command: synth_design -top upcounter_design_FND_counter_0_0 -part xc7a35tcpg236-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 31456
+WARNING: [Synth 8-992] w_clk_clock is already implicitly declared earlier [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/FND_counter.v:17]
+WARNING: [Synth 8-992] w_digit_select is already implicitly declared earlier [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/FND_counter.v:25]
+WARNING: [Synth 8-992] w_1000 is already implicitly declared earlier [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/FND_counter.v:40]
+WARNING: [Synth 8-992] w_100 is already implicitly declared earlier [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/FND_counter.v:40]
+WARNING: [Synth 8-992] w_10 is already implicitly declared earlier [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/FND_counter.v:40]
+WARNING: [Synth 8-992] w_1 is already implicitly declared earlier [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/FND_counter.v:40]
+WARNING: [Synth 8-992] w_mux_to_decoder_value is already implicitly declared earlier [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/FND_counter.v:51]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1058.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'upcounter_design_FND_counter_0_0' [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ip/upcounter_design_FND_counter_0_0/synth/upcounter_design_FND_counter_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'FND_counter' [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/FND_counter.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Clock_divider' [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/Clock_divider.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Clock_divider' (1#1) [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/Clock_divider.v:3]
+INFO: [Synth 8-6157] synthesizing module 'counter_FND' [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/counter_FND.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'counter_FND' (2#1) [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/counter_FND.v:3]
+INFO: [Synth 8-6157] synthesizing module 'decoder_2_to_4' [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/decoder_2_to_4.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_2_to_4' (3#1) [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/decoder_2_to_4.v:3]
+INFO: [Synth 8-6157] synthesizing module 'digit_divider' [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/digit_divider.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'digit_divider' (4#1) [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/digit_divider.v:3]
+INFO: [Synth 8-6157] synthesizing module 'MUX_4_to_1' [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/MUX_4_to_1.v:3]
+WARNING: [Synth 8-567] referenced signal 'i_1' should be on the sensitivity list [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/MUX_4_to_1.v:11]
+WARNING: [Synth 8-567] referenced signal 'i_10' should be on the sensitivity list [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/MUX_4_to_1.v:11]
+WARNING: [Synth 8-567] referenced signal 'i_100' should be on the sensitivity list [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/MUX_4_to_1.v:11]
+WARNING: [Synth 8-567] referenced signal 'i_1000' should be on the sensitivity list [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/MUX_4_to_1.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_4_to_1' (5#1) [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/MUX_4_to_1.v:3]
+INFO: [Synth 8-6157] synthesizing module 'decoder_BCD_to_FND' [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/decoder_BCD_to_FND.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_BCD_to_FND' (6#1) [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/decoder_BCD_to_FND.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'FND_counter' (7#1) [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ipshared/cf24/src/FND_counter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'upcounter_design_FND_counter_0_0' (8#1) [d:/xilinx_2020/Upcounter2/Upcounter2.srcs/sources_1/bd/upcounter_design/ip/upcounter_design_FND_counter_0_0/synth/upcounter_design_FND_counter_0_0.v:58]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1058.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1058.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1058.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1058.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:58 . Memory (MB): peak = 1116.695 ; gain = 57.707
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:58 . Memory (MB): peak = 1116.695 ; gain = 57.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:59 . Memory (MB): peak = 1116.695 ; gain = 57.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:01:05 . Memory (MB): peak = 1116.695 ; gain = 57.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:01:05 . Memory (MB): peak = 1116.695 ; gain = 57.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:01:05 . Memory (MB): peak = 1116.695 ; gain = 57.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:01:05 . Memory (MB): peak = 1116.695 ; gain = 57.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:01:05 . Memory (MB): peak = 1116.695 ; gain = 57.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:01:05 . Memory (MB): peak = 1116.695 ; gain = 57.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    28|
+|2     |LUT1   |     4|
+|3     |LUT2   |    49|
+|4     |LUT3   |    39|
+|5     |LUT4   |    47|
+|6     |LUT5   |    62|
+|7     |LUT6   |    64|
+|8     |FDCE   |    35|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+--------------+------+
+|      |Instance |Module        |Cells |
++------+---------+--------------+------+
+|1     |top      |              |   328|
+|2     |  inst   |FND_counter   |   295|
+|3     |    U0   |Clock_divider |    83|
+|4     |    U1   |counter_FND   |    30|
+|5     |    U3   |digit_divider |   182|
++------+---------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:01:05 . Memory (MB): peak = 1116.695 ; gain = 57.707
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:01:05 . Memory (MB): peak = 1116.695 ; gain = 57.707
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:01:05 . Memory (MB): peak = 1116.695 ; gain = 57.707
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 1116.695 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1116.695 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:01:27 . Memory (MB): peak = 1116.695 ; gain = 57.707
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Common 17-1381] The checkpoint 'D:/xilinx_2020/Upcounter2/Upcounter2.runs/upcounter_design_FND_counter_0_0_synth_1/upcounter_design_FND_counter_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 1517.918 ; gain = 401.223
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP upcounter_design_FND_counter_0_0, cache-ID = 7c9613dfb0eec7c0
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/xilinx_2020/Upcounter2/Upcounter2.runs/upcounter_design_FND_counter_0_0_synth_1/upcounter_design_FND_counter_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file upcounter_design_FND_counter_0_0_utilization_synth.rpt -pb upcounter_design_FND_counter_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 17 11:42:11 2022...

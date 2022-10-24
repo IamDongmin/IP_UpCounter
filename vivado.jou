@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Oct 23 11:46:57 2022
+# Process ID: 10564
+# Current directory: D:/verilog/Upcounter2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14312 D:\verilog\Upcounter2\Upcounter2.xpr
+# Log file: D:/verilog/Upcounter2/vivado.log
+# Journal file: D:/verilog/Upcounter2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/verilog/Upcounter2/Upcounter2.xpr

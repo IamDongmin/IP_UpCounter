@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Oct 23 11:46:57 2022
+# Process ID: 10564
+# Current directory: D:/verilog/Upcounter2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14312 D:\verilog\Upcounter2\Upcounter2.xpr
+# Log file: D:/verilog/Upcounter2/vivado.log
+# Journal file: D:/verilog/Upcounter2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/verilog/Upcounter2/Upcounter2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/verilog/IP_Repository'.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/real/Vivado/2020.1/data/ip'.
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"namespace eval ::xilinx.com_interface_aximm_1.0 { source -notrace {D:/real/Vivado/2020.1/data/rsb/busdef/AXIMM/busdef.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/real/Vivado/2020.1/data/rsb/busdef/clock_signal/busdef.tcl} "
+    (in namespace eval "::xilinx.com_signal_clock_1.0" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_signal_clock_1.0 { source -notrace {D:/real/Vivado/2020.1/data/rsb/busdef/clock_signal/busdef.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/real/Vivado/2020.1/data/rsb/busdef/gt_outclk/busdef.tcl} "
+    (in namespace eval "::xilinx.com_signal_gt_outclk_1.0" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_signal_gt_outclk_1.0 { source -notrace {D:/real/Vivado/2020.1/data/rsb/busdef/gt_outclk/busdef.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/real/Vivado/2020.1/data/rsb/busdef/gt_usrclk/busdef.tcl} "
+    (in namespace eval "::xilinx.com_signal_gt_usrclk_1.0" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_signal_gt_usrclk_1.0 { source -notrace {D:/real/Vivado/2020.1/data/rsb/busdef/gt_usrclk/busdef.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/real/Vivado/2020.1/data/rsb/busdef/interrupt_signal/busdef.tcl} "
+    (in namespace eval "::xilinx.com_signal_interrupt_1.0" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_signal_interrupt_1.0 { source -notrace {D:/real/Vivado/2020.1/data/rsb/busdef/interrupt_signal/busdef.tcl} }"
+INFO: [Common 17-344] 'open_project' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 23 11:48:19 2022...

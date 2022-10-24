@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1665975714">
+  <File Type="ROUTE-PWR" Name="upcounter_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="upcounter.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="upcounter_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="upcounter_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="upcounter.msk"/>
+  <File Type="ROUTE-CLK" Name="upcounter_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="upcounter.vdi"/>
+  <File Type="BG-BIT" Name="upcounter.bit"/>
+  <File Type="BG-DRC" Name="upcounter.drc"/>
+  <File Type="BG-BGN" Name="upcounter.bgn"/>
+  <File Type="BG-BIN" Name="upcounter.bin"/>
+  <File Type="BITSTR-RBT" Name="upcounter.rbt"/>
+  <File Type="BITSTR-NKY" Name="upcounter.nky"/>
+  <File Type="BITSTR-BMM" Name="upcounter_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="upcounter_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="upcounter.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="upcounter_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="upcounter.sysdef"/>
+  <File Type="ROUTE-DRC-RPX" Name="upcounter_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="upcounter.ltx"/>
+  <File Type="RCFI_FILE" Name="upcounter.rcfi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="upcounter_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="upcounter.hwdef"/>
+  <File Type="PLACE-IO" Name="upcounter_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="upcounter_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="upcounter_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="upcounter_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="upcounter_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="upcounter_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="upcounter_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="upcounter_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="upcounter_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="upcounter_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="upcounter_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="upcounter_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="upcounter_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="upcounter_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="upcounter_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="upcounter_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="upcounter_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="upcounter_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="upcounter_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="upcounter_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="upcounter_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="upcounter_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="upcounter_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="upcounter_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="upcounter_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="upcounter_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="upcounter_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="upcounter.pdi"/>
+  <File Type="CFI_FILE" Name="upcounter.cfi"/>
+  <File Type="RNPI_FILE" Name="upcounter.rnpi"/>
+  <File Type="NPI_FILE" Name="upcounter.npi"/>
+  <File Type="RBD_FILE" Name="upcounter.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/upcounter_design/upcounter_design.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Clock_counter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Clock_divider.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/upcounter_design/hdl/upcounter_design_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/upcounter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="upcounter"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/xilinx_2020/MY_Basys-3-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_Basys-3-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1643535321"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="upcounter_design_FND_counter_0_0"/>
+</GenRun>
